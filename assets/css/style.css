@@ -229,14 +229,17 @@ input[type=submit] {
 
 @media screen and (width: 768px) {
   #logo {
-    margin-left: 15px;
+    margin-left: 34px;
   }
+  
   nav {
-    margin-right: 15px;
+    margin-right: 34px;
   }
-
+ 
   .main-section {
-    width: 600px;
+    width: 700px;
+    margin-left: 34px;
+   
   }
 
 }
