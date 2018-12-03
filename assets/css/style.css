@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  margin: 0;
 }
 
 * {
@@ -214,4 +215,28 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (width: 980px) {
+ 
+  nav {
+    margin-right: 15px;
+  }
+  .main-section {
+    width: 65%; 
+  }
+}
+
+@media screen and (width: 768px) {
+  #logo {
+    margin-left: 15px;
+  }
+  nav {
+    margin-right: 15px;
+  }
+
+  .main-section {
+    width: 600px;
+  }
+
 }
